@@ -1,0 +1,45 @@
+.container {
+    padding: 10px 20px;
+    margin: 0 auto;
+    background: azure;
+    min-height: 50vh;
+    width: 500px;
+}
+
+.delButton {
+    width: 100px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+    background-color: white;
+    border: 1px solid blueviolet;
+    transition: 0.5s;
+}
+
+.delButton:hover {
+    cursor: pointer;
+    background-color: #e8d5ff;
+}
+
+.delButton:active {
+    background-color: #c90d36;
+    color: white;
+}
+
+
+.list {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #e8d5ff;
+    color: #5f5f5f;
+    border: 1px solid;
+}
